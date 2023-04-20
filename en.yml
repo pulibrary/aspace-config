@@ -1,0 +1,68 @@
+##### Princeton locales/enums/en.yml
+en:
+  enumerations:
+    event_event_type:
+      "Disk Image": Disk Image
+  accession:
+    user_defined:
+      boolean_1: Notable
+      boolean_2: Acknowledgement Sent?
+      boolean_3: Monetary Appraisal?
+      real_1: Price
+      real_2: Amount of Appraisal
+      date_1: Date of Appraisal
+      string_1: Collecting Area
+      string_2: Call Number
+      string_3: Stacks Location
+      string_4: Fund
+      text_1: Acknowledgement Sent by Whom
+      text_2: Name of Appraiser
+      text_3: Accessioned By
+      enum_2: Currency (re Price)
+  resource:
+    user_defined:
+      boolean_1: ao2marc
+      boolean_2: Acknowledgement Sent?
+      boolean_3: Monetary Appraisal?
+      real_1: Price
+      real_2: Amount of Appraisal
+      date_1: Date of Appraisal
+      string_1: Collecting Area
+      string_2: Call Number
+      string_3: Stacks Location
+      string_4: Fund
+      text_1: Acknowledgement Sent by Whom
+      text_2: Name of Appraiser
+      text_3: Accessioned By
+      enum_2: Currency (re Price)
+  digital_object:
+    user_defined:
+      boolean_1: Notable
+      boolean_2: Acknowledgement Sent?
+      boolean_3: Monetary Appraisal?
+      real_1: Price
+      real_2: Amount of Appraisal
+      date_1: Date of Appraisal
+      string_1: Collecting Area
+      string_2: Call Number
+      string_3: Stacks Location
+      string_4: Fund
+      text_1: Acknowledgement Sent by Whom
+      text_2: Name of Appraiser
+      text_3: Accessioned By
+      enum_2: Currency (re Price)
+  user_defined: &user_defined_attributes
+      boolean_1: Notable
+      boolean_2: Acknowledgement Sent?
+      boolean_3: Monetary Appraisal?
+      real_1: Price
+      real_2: Amount of Appraisal
+      date_1: Date of Appraisal
+      string_1: Collecting Area
+      string_2: Call Number
+      string_3: Stacks Location
+      string_4: Fund
+      text_1: Acknowledgement Sent by Whom
+      text_2: Name of Appraiser
+      text_3: Accessioned By
+      enum_2: Currency (re Price)
