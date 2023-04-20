@@ -7,7 +7,7 @@ We install any new plugins, version updates, or config changes on dev for testin
 
 Prod is behind by one version on user_defined_in_basic.
 
-** Dev status:**
+**Dev status:**
 
 These are the plugins we currently have installed on dev. 
 
