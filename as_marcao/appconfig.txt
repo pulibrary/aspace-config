@@ -1,14 +1,8 @@
 server: aspace-staging
-
 AppConfig[:marcao_schedule] => '30 23 * * *'
-
 AppConfig[:marcao_flag_field] => 'boolean_1'
-
 AppConfig[:marcao_sftp_host] => lib-sftp-staging1.princeton.edu
-
 AppConfig[:marcao_sftp_user] => See file
-
 AppConfig[:marcao_sftp_password] => See file
-
 AppConfig[:marcao_sftp_path] => /alma/aspace/
 
