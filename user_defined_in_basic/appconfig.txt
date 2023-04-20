@@ -1,0 +1,6 @@
+AppConfig[:user_defined_in_basic] = {
+"accessions" => ["date_1", "text_1", "text_2", "text_3", "boolean_1", "boolean_2", "boolean_3", "date_2", "string_1", "string_2", "string_3", "string_4", "real_1", "real_2", "enum_2">
+"digital_objects" => [],
+"resources" => ["boolean_1"],
+"hide_user_defined_section" => true
+}
