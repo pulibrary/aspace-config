@@ -1,0 +1,21 @@
+flowchart TD;
+
+Princeton-.maintains..->sftp[(SFTP server)]
+Lyrasis-.maintains.->ASserver[(ASpace Server)]
+
+Princeton-.contracts with.->Lyrasis
+Princeton-.contracts with.->HM
+
+HM[Hudson Molonglo]-.develops..->plugin1([user_defined_in_basic])
+plugin1-.modifies behavior.->plugin2
+HM[Hudson Molonglo]-.develops.->plugin2([as_marcao])
+
+ASserver-.runs.->D{{Docker}}
+D-.runs.->AS(((ArchivesSpace)))
+plugin1--plugs into-->AS
+plugin2--plugs into-->AS
+%%Lyrasis-.installs.->plugin1
+%%Lyrasis-.installs.->plugin2
+
+%%plugin2==stores data==>ASserver
+ASserver==sends data==>sftp
