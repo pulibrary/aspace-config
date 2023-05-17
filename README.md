@@ -15,11 +15,11 @@ These are the plugins we currently have installed on dev.
 
 - name: as_marcao
 
-  branch: v0.1
+  branch: v0.3
   
-  url: https://github.com/hudmol/as_marcao/releases/tag/v0.1
+  url: https://github.com/hudmol/as_marcao/releases/tag/v0.3
   
-  added: 4/14/2023
+  added: 5/15/2023
 
 - name: as_princeton_shim
 
