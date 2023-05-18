@@ -21,7 +21,9 @@ These are the plugins we currently have installed on dev.
   
   url: https://github.com/hudmol/as_marcao/releases/tag/v0.3
   
-  added: 5/15/2023
+  added: 4/8/2023
+  
+  updated: 5/18/2023
 
 - name: as_princeton_shim
 
