@@ -29,6 +29,8 @@ These are the plugins we currently have installed on dev.
   
   url: https://github.com/hudmol/as_princeton_shim.git
   
+  **NB this plugin is specific to v3.2 and may at this point be creating problems**
+  
 - name: as_spreadsheet_bulk_updater
 
   branch: main
