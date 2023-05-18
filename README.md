@@ -15,7 +15,7 @@ These are the plugins we currently have installed on dev.
 
 - name: as_marcao
 
-  branch: v0.3
+  branch: v0.5
   
   url: https://github.com/hudmol/as_marcao/releases/tag/v0.3
   
