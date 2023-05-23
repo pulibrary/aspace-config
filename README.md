@@ -7,9 +7,7 @@ We install any new plugins, version updates, or config changes on dev for testin
 
 **Prod status:**
 
-- Prod is behind by one version on user_defined_in_basic.
 - Prod is lacking as_marcao
-- Prod is behind on en.yml (label in resource/user_defined/boolean_1)
 
 **Dev status:**
 
