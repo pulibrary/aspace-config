@@ -5,143 +5,17 @@ We install any new plugins, version updates, or config changes on dev for testin
 
 **We are on v3.3.1**
 
-**Prod status:**
-
-These are the plugins we currently have installed on prod.
-
-
-  - name: aspace-oauth
-    
-    branch: v3.2.0
-    
-    url: https://github.com/lyrasis/aspace-oauth.git
-    
- - name: as_marcao
- 
-    branch: v0.5
-    
-    url: https://github.com/hudmol/as_marcao.git
-    
-    added: 5/30/2023
-    
-  - name: as_princeton_shim
-    
-    branch: v1.0
-    
-    url: https://github.com/hudmol/as_princeton_shim.git  
-    
- - name: as_spreadsheet_bulk_updater
-    
-    branch: main
-    
-    url: https://github.com/hudmol/as_spreadsheet_bulk_updater.git
-    
-   - name: digitization_work_order
-    
-    branch: master
-    
-    url: https://github.com/duke-libraries/digitization_work_order.git
-    
-  - name: newrelic
-    
-    url: https://github.com/archivesspace-plugins/newrelic.git
-    
-    branch: master
-    
-    restricted: true
-    
- - name: next_accession
-    
-    branch: master
-    
-    url: https://github.com/duspeccoll/next_accession.git
-
-  - name: princeton_ead_exporter
-    
-    branch: main
-    
-    url: https://github.com/pulibrary/princeton_ead_exporter.git
-    
-  - name: refid_rules
-    
-    branch: master
-    
-    url: https://github.com/archivesspace-plugins/refid_rules.git
-    
-  - name: timewalk
-    
-    branch: master
-    
-    url: https://github.com/alexduryee/timewalk.git
-    
-  - name: user_defined_in_basic
-    
-    branch: '1.0'
-    
-    url: https://github.com/hudmol/user_defined_in_basic.git
-    
-    updated: 5/30/2023
-  
-**Dev status:**
-
-These are the plugins we currently have installed on dev. 
-
-- name: as_princeton_shim
-
-  branch: v1.0
-  
-  url: https://github.com/hudmol/as_princeton_shim.git
-  
-  **NB this plugin is specific to v3.2. It was upgraded but may at this point be creating problems**
-  
-- name: as_spreadsheet_bulk_updater
-
-  branch: main
-  
-  url: https://github.com/hudmol/as_spreadsheet_bulk_updater.git
-  
-- name: aspace-oauth
-
-  branch: v3.2.0
-  
-  url: https://github.com/lyrasis/aspace-oauth.git
-  
-- name: digitization_work_order
-
-  branch: master
-  
-  url: https://github.com/duke-libraries/digitization_work_order.git
-  
-- name: editable_external_ids
-
-  branch: master
-  
-  url: https://github.com/hudmol/editable_external_ids.git
-  
-- name: next_accession
-
-  branch: master
-  
-  url: https://github.com/duspeccoll/next_accession.git
-  
-- name: princeton_ead_exporter
-
-  branch: main
-  
-  url: https://github.com/pulibrary/princeton_ead_exporter.git
-  
-- name: refid_rules
-
-  branch: master
-  
-  url: https://github.com/archivesspace-plugins/refid_rules.git
-  
-- name: user_defined_in_basic
-
-  branch: release 1.0
-  
-  url: https://github.com/hudmol/user_defined_in_basic.git
-  
-  updated: 4/20/2023
-  
-
+| plugin | staging | prod |
+| ------ | ------- | ---- |
+| aspace-oauth | branch: v3.2.0 <br/> url: https://github.com/lyrasis/aspace-oauth.git | branch: v3.2.0 <br/> url: https://github.com/lyrasis/aspace-oauth.git |
+| as_marcao | [removed to avoid conflict writing to sftp staging] | branch: v0.5 <br/> url: https://github.com/hudmol/as_marcao.git <br/> added: 5/30/2023 |
+| as_princeton_shim | branch: v1.0 <br/> url: https://github.com/hudmol/as_princeton_shim.git <br/> **NB this plugin is specific to v3.2. It was upgraded but may at this point be creating problems** | branch: v1.0 <br/> url: https://github.com/hudmol/as_princeton_shim.git |
+| as_spreadsheet_bulk_updater | branch: main <br/> url: https://github.com/hudmol/as_spreadsheet_bulk_updater.git | branch: main <br/> url: https://github.com/hudmol/as_spreadsheet_bulk_updater.git |
+| digitization_workorder | branch: master <br/> url: https://github.com/duke-libraries/digitization_work_order.git | branch: master <br/> url: https://github.com/duke-libraries/digitization_work_order.git |
+| editable_external_ids | branch: master <br/> url: https://github.com/hudmol/editable_external_ids.git | n/a |
+| newrelic | n/a | url: https://github.com/archivesspace-plugins/newrelic.git <br/> branch: master <br/> restricted: true |
+| next_accession | branch: master <br/> url: https://github.com/duspeccoll/next_accession.git| branch: master </br> url: https://github.com/duspeccoll/next_accession.git |
+| princeton_ead_exporter | branch: main <br/> url: https://github.com/pulibrary/princeton_ead_exporter.git | branch: main <br/> url: https://github.com/pulibrary/princeton_ead_exporter.git |
+| refid_rules | branch: master <br/> url: https://github.com/archivesspace-plugins/refid_rules.git | branch: master <br/> url: https://github.com/archivesspace-plugins/refid_rules.git
+| timewalk | n/a | branch: master <br/> url: https://github.com/alexduryee/timewalk.git
+| user_defined_in_basic | branch: release 1.0<br/> url: https://github.com/hudmol/user_defined_in_basic.git <br/> updated: 4/20/2023 | branch: '1.0' <br/> url: https://github.com/hudmol/user_defined_in_basic.git <br/> updated: 5/30/2023
