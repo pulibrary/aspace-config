@@ -5,6 +5,8 @@ We install any new plugins, version updates, or config changes on dev for testin
 
 **We are on v3.3.1**
 
+## Plugins
+
 | plugin | staging | prod |
 | ------ | ------- | ---- |
 | aspace-oauth | branch: v3.2.0 <br/> url: https://github.com/lyrasis/aspace-oauth.git | branch: v3.2.0 <br/> url: https://github.com/lyrasis/aspace-oauth.git |
@@ -19,3 +21,10 @@ We install any new plugins, version updates, or config changes on dev for testin
 | refid_rules | branch: master <br/> url: https://github.com/archivesspace-plugins/refid_rules.git | branch: master <br/> url: https://github.com/archivesspace-plugins/refid_rules.git
 | timewalk | n/a | branch: master <br/> url: https://github.com/alexduryee/timewalk.git
 | user_defined_in_basic | branch: release 1.0<br/> url: https://github.com/hudmol/user_defined_in_basic.git <br/> updated: 4/20/2023 | branch: '1.0' <br/> url: https://github.com/hudmol/user_defined_in_basic.git <br/> updated: 5/30/2023
+
+## Other configuration choices
+
+| setting | staging | prod |
+| ------ | ------- | ---- |
+| SOLR | only staff UI enabled | both staff and PUI enabled |
+| infrastructure | ASpace (in Docker container) and SOLR running on one EC2 server (with 15 other sites); MySQL on separate shared RDS MySQL server | ASpace on an EC2 server (with 15 other sites); shared SOLR server on a separate EC2; separate shared RDS. | 
