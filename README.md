@@ -26,5 +26,5 @@ We install any new plugins, version updates, or config changes on dev for testin
 
 | setting | staging | prod |
 | ------ | ------- | ---- |
-| SOLR | only staff UI enabled | both staff and PUI enabled |
+| SOLR | `AppConfig[:indexer_records_per_thread] = 15 AppConfig[:indexer_thread_count] = 2 AppConfig[:pui_indexer_enabled] = false` | `AppConfig[:indexer_records_per_thread] = 15 AppConfig[:indexer_thread_count] = 2 AppConfig[:pui_indexer_enabled] = false` (updated 12/10/23) |
 | infrastructure | ASpace (in Docker container) and SOLR running on one EC2 server (with 15 other sites); MySQL on separate shared RDS MySQL server | ASpace on an EC2 server (with 15 other sites); shared SOLR server on a separate EC2; separate shared RDS. | 
