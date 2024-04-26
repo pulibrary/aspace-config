@@ -3,7 +3,7 @@ Our ArchivesSpace configuration choices, including plugins and their versions.
 
 We install any new plugins, version updates, or config changes on dev for testing before making the corresponding change on prod.
 
-**We are on v3.3.1**
+**We are on v3.3.1 (prod) and v3.5.0 (staging)**
 
 ## Plugins
 
@@ -11,7 +11,7 @@ We install any new plugins, version updates, or config changes on dev for testin
 | ------ | ------- | ---- |
 | aspace-oauth | branch: v3.2.0 <br/> url: https://github.com/lyrasis/aspace-oauth.git | branch: v3.2.0 <br/> url: https://github.com/lyrasis/aspace-oauth.git |
 | as_marcao | [removed to avoid conflict writing to sftp staging] | branch: v0.5 <br/> url: https://github.com/hudmol/as_marcao.git <br/> added: 5/30/2023 |
-| as_princeton_shim | branch: v1.0 <br/> url: https://github.com/hudmol/as_princeton_shim.git <br/> **NB this plugin is specific to v3.2. It was upgraded but may at this point be creating problems** | branch: v1.0 <br/> url: https://github.com/hudmol/as_princeton_shim.git |
+| as_princeton_shim | [removed 4/26/2024] | branch: v1.0 <br/> url: https://github.com/hudmol/as_princeton_shim.git |
 | as_spreadsheet_bulk_updater | branch: main <br/> url: https://github.com/hudmol/as_spreadsheet_bulk_updater.git </br> create_missing_top_containers: true| branch: main <br/> url: https://github.com/hudmol/as_spreadsheet_bulk_updater.git </br> max_top_container_results: true |
 | digitization_workorder | branch: master <br/> url: https://github.com/duke-libraries/digitization_work_order.git | branch: master <br/> url: https://github.com/duke-libraries/digitization_work_order.git |
 | editable_external_ids | branch: master <br/> url: https://github.com/hudmol/editable_external_ids.git | n/a |
