@@ -3,14 +3,14 @@ Our ArchivesSpace configuration choices, including plugins and their versions.
 
 We install any new plugins, version updates, or config changes on dev for testing before making the corresponding change on prod.
 
-**We are on v3.3.1 (prod) and v3.5.0 (staging)**
+**We are on v3.5.0 (prod) and v3.5.0 (staging)**
 
 ## Plugins
 
 | plugin | staging | prod |
 | ------ | ------- | ---- |
 | aspace-oauth | branch: v3.2.0 <br/> url: https://github.com/lyrasis/aspace-oauth.git | branch: v3.2.0 <br/> url: https://github.com/lyrasis/aspace-oauth.git |
-| as_marcao | [removed to avoid conflict writing to sftp staging] | branch: v0.5 <br/> url: https://github.com/hudmol/as_marcao.git <br/> added: 5/30/2023 |
+| as_marcao | branch: v1.0 <br/> url: https://github.com/hudmol/as_marcao.git <br/> updated: 6/17/2024| branch: v1.0 <br/> url: https://github.com/hudmol/as_marcao.git <br/> updated: 5/30/2023 |
 | as_princeton_shim | [removed 4/26/2024] | branch: v1.0 <br/> url: https://github.com/hudmol/as_princeton_shim.git |
 | as_spreadsheet_bulk_updater | branch: main <br/> url: https://github.com/hudmol/as_spreadsheet_bulk_updater.git </br> create_missing_top_containers: true| branch: main <br/> url: https://github.com/hudmol/as_spreadsheet_bulk_updater.git </br> max_top_container_results: true |
 | digitization_workorder | branch: master <br/> url: https://github.com/duke-libraries/digitization_work_order.git | branch: master <br/> url: https://github.com/duke-libraries/digitization_work_order.git |
@@ -27,4 +27,4 @@ We install any new plugins, version updates, or config changes on dev for testin
 | setting | staging | prod |
 | ------ | ------- | ---- |
 | SOLR | `AppConfig[:indexer_records_per_thread] = 15 AppConfig[:indexer_thread_count] = 2 AppConfig[:pui_indexer_enabled] = false` | `AppConfig[:indexer_records_per_thread] = 15 AppConfig[:indexer_thread_count] = 2 AppConfig[:pui_indexer_enabled] = false` (updated 12/10/23) |
-| infrastructure | ASpace (in Docker container) and SOLR running on one EC2 server (with 15 other sites); MySQL on separate shared RDS MySQL server | ASpace on an EC2 server (with 15 other sites); shared SOLR server on a separate EC2; separate shared RDS. | 
+| infrastructure | ASpace (in Docker container) and SOLR running on one ECS server; MySQL on separate shared RDS MySQL server | ASpace and SOLR running on one ECS server; MySQL on separate shared RDS MySQL server | 
