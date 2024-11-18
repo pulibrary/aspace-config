@@ -7,5 +7,5 @@
 |pulfalight|pulfalight|yes|no|DLS||https://github.com/pulibrary/pulfalight|
 |pulfalight, orangelight|figgy|no|yes|DLS||https://github.com/pulibrary/figgy|
 |ASpace|abid|yes|yes|DLS||https://github.com/pulibrary/abid|
-|LibSafe|LibSafe|yes|yes|SC|staging only|n/a|
+|LibSafe|LibSafe TC|yes|yes|SC|staging only|n/a|
 |SVN|eads2svn (lib_jobs)|yes|no|DACS||https://github.com/pulibrary/lib_jobs|
