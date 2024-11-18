@@ -1,6 +1,6 @@
 ### Applications integrating with ArchivesSpace
 
-|ASpace interacts with|via this app|app pulls?|app pushes?|contact|notes|repo|
+|ASpace interacts with|via this app|app pulls from ASpace?|app pushes to ASpace?|contact|notes|repo|
 |----|----|----|----|----|----|----|
 |Alma|aspace2alma|yes|no|DACS||https://github.com/pulibrary/aspace_helpers/tree/main/reports/aspace2alma|
 |Alma|as_marcao (plugin)|yes|no|DACS||https://github.com/hudmol/as_marcao|
