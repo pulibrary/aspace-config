@@ -1,4 +1,4 @@
-##### Princeton locales/enums/en.yml
+##### replace /common/locales/enums/en.yml with:
 en:
   enumerations:
     event_event_type:
