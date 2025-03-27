@@ -3,7 +3,7 @@ Our ArchivesSpace configuration choices, including plugins and their versions.
 
 We install any new plugins, version updates, or config changes on dev for testing before making the corresponding change on prod.
 
-**We are on v3.5.1 (prod) and v3.5.1 (staging)**
+**We are on v3.5.1 (prod) and v4.0 (staging)**
 
 ## Plugins
 
