@@ -23,3 +23,4 @@ To install:
   AppConfig[:marcao_sftp_path] = '/remote/path'
   AppConfig[:marcao_sftp_timeout] = 30
 ```
+7. run `./setup-database.sh`
