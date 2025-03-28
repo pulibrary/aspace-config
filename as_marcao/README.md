@@ -24,7 +24,7 @@ To install:
   AppConfig[:marcao_sftp_timeout] = 30
 ```
 7. add `en.yml`
-   This is a top-level file in `locales`, which sits right inside `archivesspace`. Contrary to what the documentation says, it is not exposed in the docker image version. Do
+   This is a top-level file in `locales`, which sits right inside `archivesspace`. Contrary to what the 4.0 documentation says, it is not exposed in the docker image version. Do
    ```
    docker cp ~path/to/en.yml archivesspace:/archivesspace/locales
    ```
