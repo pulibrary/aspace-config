@@ -28,4 +28,3 @@ To install:
    ```
    docker cp ~path/to/en.yml archivesspace:/archivesspace/locales
    ```
-8. run `./setup-database.sh`
