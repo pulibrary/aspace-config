@@ -1,4 +1,4 @@
-##### replace /common/locales/enums/en.yml with:
+##### replace the appropriate fields in /common/locales/enums/en.yml with:
 en:
   enumerations:
     event_event_type:
