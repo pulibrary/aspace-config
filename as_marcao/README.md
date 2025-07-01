@@ -1,4 +1,4 @@
-To install:
+### To install:
 
 1. clone [user_defined_in_basic](https://github.com/hudmol/user_defined_in_basic) to the `plugins` directory
 2. clone [as_marcao](https://github.com/hudmol/as_marcao) to the `plugins` directory
@@ -28,3 +28,10 @@ To install:
    ```
    docker cp ~path/to/en.yml archivesspace:/archivesspace/locales
    ```
+
+### To troubleshoot:
+
+1. To run manually, change the schedule in config.rb, then restart
+2. The output file `marcao_export.xml` gets saved to `/build/dev/shared/marcao`
+3. The report of the last successful run is called `report.json` and gets saved to the same directory
+   (It only gets saved after the first _successful_ run, including sftp upload. In other words, if something goes after the initial install or right after an update, no report gets saved.)
