@@ -8,4 +8,4 @@
 |figgy|figgy|yes|yes|DLS||https://github.com/pulibrary/figgy|
 |ASpace|abid|yes|yes|DLS||https://github.com/pulibrary/abid|
 |LibSafe|LibSafe TC|yes|yes|SC|staging only|n/a|
-|SVN|eads2svn (lib_jobs)|yes|no|DACS||https://github.com/pulibrary/lib_jobs|
+|GitLab|aspace_version_control (lib_jobs)|yes|no|DACS||https://github.com/pulibrary/lib_jobs|
