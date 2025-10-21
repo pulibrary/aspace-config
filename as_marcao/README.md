@@ -3,7 +3,7 @@
 1. clone [user_defined_in_basic](https://github.com/hudmol/user_defined_in_basic) to the `plugins` directory
 2. clone [as_marcao](https://github.com/hudmol/as_marcao) to the `plugins` directory
 3. add `user_defined_in_basic` to `AppConfig[:plugins]` in `common/config/config-defaults.rb`
-4. add `as_marcao` to `AppConfig[:plugins]` in `common/config/config-defaults.rb`
+4. add `as_marcao` to `AppConfig[:plugins]` in `common/config/config-defaults.rb` (3.5.1) or `config/config.rb` (4.x)
 5. add configurations for `user_defined_in_basic`:
 ```
   AppConfig[:user_defined_in_basic] = {
