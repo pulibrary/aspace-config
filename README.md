@@ -14,4 +14,5 @@ Please refer to [this spreadsheet](https://docs.google.com/spreadsheets/d/1uRQCC
 | setting | staging | prod |
 | ------ | ------- | ---- |
 | SOLR | `AppConfig[:indexer_records_per_thread] = 15 AppConfig[:indexer_thread_count] = 2 AppConfig[:pui_indexer_enabled] = false` | `AppConfig[:indexer_records_per_thread] = 15 AppConfig[:indexer_thread_count] = 2 AppConfig[:pui_indexer_enabled] = false` (updated 12/10/23) |
+| metadata permissions| n/a | AppConfig[:spreadsheet_bulk_updater_apply_deletes] = true |
 | infrastructure | ASpace (in Docker container) and SOLR running on one ECS server; MySQL on separate shared RDS MySQL server | ASpace and SOLR running on one ECS server; MySQL on separate shared RDS MySQL server | 
